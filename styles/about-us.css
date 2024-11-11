@@ -1,0 +1,24 @@
+.description {
+    Font-size: 45px;
+    margin-bottom: 30px;
+    width: 1048px;
+    line-height: 61px;
+}
+
+@media (max-width: 1199px) {
+
+    .description {
+        width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .description {
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+}

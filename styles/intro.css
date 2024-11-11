@@ -1,0 +1,52 @@
+.intro {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('../resources/metrica-intro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+}
+
+.intro__text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 430px;
+    Font-weight: 400;
+    Font-size: 20px;
+    line-height: 27px;
+    left: 40px;
+    bottom: 40px;
+} 
+
+
+@media (max-width: 1199px) {
+    .intro {
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .intro__text {
+        left: 42px;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro {
+        height: 304px;
+        background-image: url(../resources/metrica-intro-mini.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .intro__text {
+        font-size: 16px;
+        line-height: 22px;
+        left: 15px;
+        bottom: 15px;
+        width: 312px;
+
+    }
+}
